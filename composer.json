@@ -1,0 +1,36 @@
+{
+    "name": "surgems/inliner",
+    "description": "Statamic Addon that turns external assets into inline HTML.",
+    "version": "1.0.0",
+    "latestVersion": "1.0.0",
+    "license":[
+        "MIT"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Surgems\\Inliner\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Surge Marketing Solutions"
+        }
+    ],
+    "support": {
+        "email": "support@surgems.co.uk"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Inliner",
+            "description": "Inliner addon"
+        },
+        "laravel": {
+            "providers": [
+                "Surgems\\Inliner\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "matthiasmullie/minify": "^1.3"
+    }
+}
